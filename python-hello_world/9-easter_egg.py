@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("The Zen of Python, by Tim Peters")
+name = "The Zen of Python"
+autor = "Tim Peters"
+print(f"{name}, by {autor}")
