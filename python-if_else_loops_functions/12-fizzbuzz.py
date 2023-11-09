@@ -5,7 +5,7 @@ def fizzbuzz():
             str = 'FizzBuzz '
             for x in str:
                 print('{}'.format(x), end='')
-        if i % 3 == 0:
+        elif i % 3 == 0:
             str = 'Fizz '
             for y in str:
                 print('{}'.format(y), end='')
