@@ -12,9 +12,7 @@ if __name__ == "__main__":
     elif len(sys.argv) == 2:
         text_first = "argument"
         point = ':'
-    
     print('{} {}{}'.format(pre_num, text_first, point), end='\n')
 
     for i in range(pre_num):
         print("{}: {}".format(i + 1, sys.argv[i + 1]))
-
