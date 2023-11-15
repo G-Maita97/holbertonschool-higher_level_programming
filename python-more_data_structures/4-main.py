@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
 only_diff_elements = __import__('4-only_diff_elements').only_diff_elements
 
 set_1 = { "Python", "C", "Javascript" }
