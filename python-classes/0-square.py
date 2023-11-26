@@ -1,10 +1,6 @@
 #!/usr/bin/python3
-"""Square Class
-
-This class don't do anything for the moment
-
-"""
-
+""" square class is created """
 
 class Square:
+    """Empty class"""
     pass
