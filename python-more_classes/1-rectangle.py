@@ -21,9 +21,6 @@ class Rectangle:
             width (int): the width of Rectagle.
             height (int): the height of Rectagle.
 
-        Return:
-            None
-
         """
         self.__width = width
         self.__height = height
@@ -50,8 +47,6 @@ class Rectangle:
             TypeError: if type value is not integer.
             ValueError: if value is negative.
 
-        Return:
-            None
         """
         if type(value) is not int:
             raise TypeError('width must be an integer')
@@ -81,8 +76,6 @@ class Rectangle:
             TypeError: if type value is not integer.
             ValueError: if value is negative.
 
-        Return:
-            None
         """
         if type(value) is not int:
             raise TypeError('height must be an integer')
