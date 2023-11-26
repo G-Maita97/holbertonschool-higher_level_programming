@@ -3,7 +3,7 @@
 
 
 class Rectangle:
-    """empty class Rectangle.
+    """ Class of rectangle.
 
     Attributes:
         __width (int): Private instance attribute (optional value).

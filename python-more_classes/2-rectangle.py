@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Module 1-rectangle(class Rectangle)"""
+"""Module 2-rectangle(class Rectangle)"""
 
 
 class Rectangle:
-    """empty class Rectangle.
+    """ class of Rectangle.
 
     Attributes:
         __width (int): Private instance attribute (optional value).
