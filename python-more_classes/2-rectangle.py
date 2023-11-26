@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module 2-rectangle(class Rectangle)"""
+"""Module 1-rectangle(class Rectangle)"""
 
 
 class Rectangle:
@@ -89,6 +89,15 @@ class Rectangle:
         if value < 0:
             raise ValueError('height must be >= 0')
         self.__height = value
+
+    def area(self):
+        """
+            Return Rectangle Area
+
+        Return: (int) rectangle area
+
+        """
+        return self.__width * self.__height
 
     def perimeter(self):
         """
