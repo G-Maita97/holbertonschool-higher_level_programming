@@ -1,20 +1,21 @@
 #!/usr/bin/python3
-"""Square Class
-
-A Square Class
-
-"""
+"""Module 1-square.py"""
 
 
 class Square:
+    """" Class square represents the size of the geometric figure
 
+    Attributes:
+                __size (int): Private instance attribute.
+
+    """
     def __init__(self, size):
-        """__init__
+        """__init__ method.
 
-        The __init__ method initializes the size value
-        of the square.
+        The __init__ method initializes the "size"
+        instance which will be the size of the square.
 
-        Attributes:
+        Args:
             size (int): The size of the square.
 
         """
