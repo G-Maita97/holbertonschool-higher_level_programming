@@ -66,6 +66,7 @@ class Rectangle:
 
         Return:
             height of Rectangle.
+
         """
         return self.__height
 
@@ -83,6 +84,7 @@ class Rectangle:
 
         Return:
             None
+
         """
         if type(value) is not int:
             raise TypeError('height must be an integer')
@@ -105,6 +107,7 @@ class Rectangle:
 
         Return:
             (int) rectangle perimeter
+
         """
         if self.__width == 0 or self.__height == 0:
             return 0
