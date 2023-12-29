@@ -1,0 +1,2 @@
+-- Cuando ejecutas esta instrucción, obtendrás una salida que incluirá la declaración SQL exacta utilizada para crear la tabla first_table, incluyendo la definición de las columnas, los tipos de datos y cualquier restricción aplicada a la tabla. Esto puede ser útil para entender la estructura completa de la tabla sin necesidad de revisar el código original de creación.
+SHOW CREATE TABLE first_table;
