@@ -1,4 +1,5 @@
+-- 
 SELECT score, name
 FROM  second_table
-WHERE name != ''
+WHERE name != NULL
 ORDER BY score DESC;
