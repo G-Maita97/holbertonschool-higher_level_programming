@@ -1,5 +1,5 @@
-# COLOCAR DOCUMENTACION Y ENTENDER.
 #!/usr/bin/python3
+#COLOCAR DOCUMENTACION Y ENTENDER.
 # Lists all states from the database hbtn_0e_0_usa.
 # Usage: ./0-select_states.py <mysql username> \
 #                             <mysql password> \
